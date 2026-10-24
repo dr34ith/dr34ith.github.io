@@ -16,7 +16,7 @@ order: 5
   <header class="about-gallery__intro fade-in-stagger delay-1">
     <span class="about-gallery__label">A personal archive</span>
     <h2>Hi, I'm Dreaith.</h2>
-    <p>A creative soul who paints on canvas, explores life, and rides motorcycles. "NBSB" , but at least I know how to handle a clutch. (</p>
+    <p>A creative soul who paints on canvas, explores life, and rides motorcycles. "NBSB" , but at least I know how to handle a clutch. </p>
   </header>
 
   <section class="about-gallery__exhibit fade-in-stagger delay-2">
