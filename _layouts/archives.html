@@ -1,0 +1,45 @@
+---
+layout: page
+# The Archives of posts.
+---
+
+{% include lang.html %}
+
+<div id="archives">
+  <p class="archive-intro">A collection of writeups, walkthroughs, experiments, and things I've learned along the way.</p>
+
+  {% assign archive_year = '' %}
+  {% assign archive_month = '' %}
+  {% for post in site.posts %}
+    {% assign post_year = post.date | date: '%Y' %}
+    {% assign post_month = post.date | date: '%B' %}
+    {% if post_year != archive_year %}
+      {% unless forloop.first %}</div></section></div></section>{% endunless %}
+      <section class="archive-year-block">
+        <h2>{{ post_year }}</h2>
+        <div class="archive-year-track">
+      {% assign archive_year = post_year %}
+      {% assign archive_month = '' %}
+    {% endif %}
+
+    {% if post_month != archive_month %}
+      {% unless archive_month == '' %}</div></section>{% endunless %}
+      <section class="archive-month-group">
+        <h3 class="archive-month">{{ post_month }}</h3>
+        <div class="archive-entries">
+      {% assign archive_month = post_month %}
+    {% endif %}
+
+    <article class="archive-entry">
+      <a class="archive-entry__link" href="{{ post.url | relative_url }}">
+        <span class="archive-entry__date">{{ post.date | date: '%b %d' | upcase }}</span>
+        <h3 class="archive-entry__title">{{ post.title }}</h3>
+        <div class="archive-entry__meta">
+          {{ post.categories | join: ' · ' }}
+        </div>
+      </a>
+    </article>
+
+    {% if forloop.last %}</div></section></div></section>{% endif %}
+  {% endfor %}
+</div>

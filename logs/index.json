@@ -1,0 +1,267 @@
+{
+  "categories": [
+    {
+      "slug": "foundations",
+      "label": "Foundations"
+    },
+    {
+      "slug": "offensive-security",
+      "label": "Offensive Security"
+    },
+    {
+      "slug": "defensive-security",
+      "label": "Defensive Security"
+    },
+    {
+      "slug": "web-security",
+      "label": "Web Security"
+    },
+    {
+      "slug": "challenges",
+      "label": "Challenges"
+    }
+  ],
+  "notes": [
+    {
+      "slug": "computer-forensics-fundamentals",
+      "filename": "defensive-security/computer-forensics.md",
+      "title": "Computer Forensics Fundamentals",
+      "date": "2026-07-30",
+      "tags": [
+        "blueteam",
+        "forensics",
+        "fundamentals",
+        "computerforensics",
+        "hardware"
+      ],
+      "category": "defensive-security",
+      "categoryLabel": "Defensive Security",
+      "cover": "logs/assets/forensics/cover.jpg",
+      "readTime": "18 min read",
+      "excerpt": "Hello there! Let's talk about forensics, i've been taking a short courses about computer forensics and here's some of my learnings and notes. Before we start le…",
+      "wordCount": 3656
+    },
+    {
+      "slug": "bandit-overthewire",
+      "filename": "challenges/bandit.md",
+      "title": "Bandit (OverTheWire)",
+      "date": "2026-07-29",
+      "tags": [
+        "ctf",
+        "overthewire",
+        "linux",
+        "bandit",
+        "wargame",
+        "fundamentals"
+      ],
+      "category": "challenges",
+      "categoryLabel": "Challenges",
+      "cover": "logs/assets/bandit/cover.png",
+      "readTime": "20 min read",
+      "excerpt": "Hello there! Bandit is OverTheWire's entry level wargame the one built to teach the basic Linux command line skills every other wargame on the platform assumes…",
+      "wordCount": 3932
+    },
+    {
+      "slug": "blue-team-fundamentals",
+      "filename": "defensive-security/blue-team-fundamentals.md",
+      "title": "Blue Team Fundamentals",
+      "date": "2026-07-26",
+      "tags": [
+        "blueteam",
+        "soc",
+        "incident-response",
+        "fundamentals"
+      ],
+      "category": "defensive-security",
+      "categoryLabel": "Defensive Security",
+      "cover": "logs/assets/blueteam.jpg",
+      "readTime": "5 min read",
+      "excerpt": "When we hear the term \"blue teaming,\" we tend to think it's just about defense and security but that's not the full picture. Blue teams are also responsible for…",
+      "wordCount": 1039
+    },
+    {
+      "slug": "network-pivoting",
+      "filename": "offensive-security/network-pivoting.md",
+      "title": "Network Pivoting",
+      "date": "2026-06-11",
+      "tags": [
+        "redteam",
+        "pivoting",
+        "proxychains"
+      ],
+      "category": "offensive-security",
+      "categoryLabel": "Offensive Security",
+      "cover": "logs/assets/PivotingandTunnelingVisualized.gif",
+      "readTime": "6 min read",
+      "excerpt": "Hi again! Hello there! These notes were inspired by my journey preparing for the CRTA certification. They capture what I learned while working through the cours…",
+      "wordCount": 1127
+    },
+    {
+      "slug": "red-team-lab-setup",
+      "filename": "offensive-security/red-team-lab-setup.md",
+      "title": "Red Team Lab Setup",
+      "date": "2026-06-08",
+      "tags": [
+        "redteam",
+        "lab",
+        "activedirectory"
+      ],
+      "category": "offensive-security",
+      "categoryLabel": "Offensive Security",
+      "cover": "logs/assets/red-team-lab-setup/01.png",
+      "readTime": "6 min read",
+      "excerpt": "Start the Set up : 2026 06 08 Finished the Set up : 2026 06 10 Hello there! I set up this lab while preparing for the CRTA examination, and I'm happy to say I p…",
+      "wordCount": 1236
+    },
+    {
+      "slug": "red-teaming-fundamentals",
+      "filename": "offensive-security/red-teaming-fundamentals.md",
+      "title": "Red Teaming Fundamentals",
+      "date": "2026-06-02",
+      "tags": [
+        "redteam",
+        "pentest",
+        "fundamentals"
+      ],
+      "category": "offensive-security",
+      "categoryLabel": "Offensive Security",
+      "cover": "logs/assets/red-team.jpg",
+      "readTime": "10 min read",
+      "excerpt": "Hi there, glad to have you here! In this note, you'll learn the basics of Red Teaming — these resources are compiled from my own journey studying for the CRTA (…",
+      "wordCount": 1982
+    },
+    {
+      "slug": "cloud-computing-fundamentals",
+      "filename": "foundations/cloud-computing-fundamentals.md",
+      "title": "Cloud Computing Fundamentals",
+      "date": "2026-05-06",
+      "tags": [
+        "cloud",
+        "aws",
+        "fundamentals"
+      ],
+      "category": "foundations",
+      "categoryLabel": "Foundations",
+      "cover": "logs/assets/cloud-computing-cover.png",
+      "readTime": "2 min read",
+      "excerpt": "I. Benefits of Cloud Computing Scalability easily scale resources up or down as demand changes On demand self service instantly create or remove servers/storage…",
+      "wordCount": 440
+    },
+    {
+      "slug": "history-domains-of-cybersecurity",
+      "filename": "foundations/history-and-domains.md",
+      "title": "History & Domains of Cybersecurity",
+      "date": "2026-05-03",
+      "tags": [
+        "GoogleCybersecurity",
+        "Theory"
+      ],
+      "category": "foundations",
+      "categoryLabel": "Foundations",
+      "cover": "logs/assets/cybersecurity-history-cover.png",
+      "readTime": "4 min read",
+      "excerpt": "Introduction Cybersecurity (security): the practice of ensuring confidentiality, integrity, and availability of information by protecting networks, devices, peo…",
+      "wordCount": 861
+    },
+    {
+      "slug": "penetration-testing-lifecycle",
+      "filename": "offensive-security/pentest-lifecycle-frameworks.md",
+      "title": "Penetration Testing Lifecycle",
+      "date": "2026-05-03",
+      "tags": [
+        "OWASPTop10",
+        "Theory"
+      ],
+      "category": "offensive-security",
+      "categoryLabel": "Offensive Security",
+      "cover": "logs/assets/pentestinglifecycle.png",
+      "readTime": "9 min read",
+      "excerpt": "Welcome! In this note, we'll take a deep dive into the Penetration Testing Lifecycle , breaking down each phase and how it all fits together. (P.S. I'll be revi…",
+      "wordCount": 1839
+    },
+    {
+      "slug": "privilege-escalation",
+      "filename": "offensive-security/privilege-escalation.md",
+      "title": "Privilege Escalation",
+      "date": "2026-05-03",
+      "tags": [
+        "OWASPTop10",
+        "Theory"
+      ],
+      "category": "offensive-security",
+      "categoryLabel": "Offensive Security",
+      "cover": "logs/assets/privesc.png",
+      "readTime": "14 min read",
+      "excerpt": "Let's now tackle about Privilege Escalation, btw the source of this notes is from the course in TryHackme ; I. Shells What a shell actually is A shell acts as a…",
+      "wordCount": 2729
+    },
+    {
+      "slug": "owasp-top-10",
+      "filename": "web-security/owasp.md",
+      "title": "OWASP Top 10",
+      "date": "2026-05-03",
+      "tags": [
+        "OWASPTop10",
+        "Theory"
+      ],
+      "category": "web-security",
+      "categoryLabel": "Web Security",
+      "cover": "logs/assets/OWASP10.png",
+      "readTime": "6 min read",
+      "excerpt": "OWASP, the Open Web Application Security Project, is the most widely adopted framework for identifying critical web application security risks. Rather than trea…",
+      "wordCount": 1271
+    },
+    {
+      "slug": "web-fundamentals",
+      "filename": "web-security/web-fundamentals.md",
+      "title": "Web Fundamentals",
+      "date": "2026-05-03",
+      "tags": [
+        "Website",
+        "Theory"
+      ],
+      "category": "web-security",
+      "categoryLabel": "Web Security",
+      "cover": "logs/assets/website.webp",
+      "readTime": "6 min read",
+      "excerpt": "Let's now slow down to understand whats hapenning under the hood every time a browser talks to a server. This writeup covers the core building blocks of the web…",
+      "wordCount": 1183
+    },
+    {
+      "slug": "the-security-principles",
+      "filename": "foundations/security-principles.md",
+      "title": "The Security Principles",
+      "date": "2026-04-20",
+      "tags": [
+        "fundamentals",
+        "theory",
+        "cryptography",
+        "CIA",
+        "AAA",
+        "ThreatActors"
+      ],
+      "category": "foundations",
+      "categoryLabel": "Foundations",
+      "cover": "logs/assets/security-principle.jpeg",
+      "readTime": "6 min read",
+      "excerpt": "CIA Triad Hello there! Let's begin discussing the Security Principes. The CIA Triad is the backbone of almost every security practice the checklist for keeping…",
+      "wordCount": 1256
+    },
+    {
+      "slug": "computer-hardware",
+      "filename": "foundations/computer-hardware.md",
+      "title": "Computer Hardware",
+      "date": "2026-04-10",
+      "tags": [
+        "hardware",
+        "fundamentals"
+      ],
+      "category": "foundations",
+      "categoryLabel": "Foundations",
+      "cover": "logs/assets/computer-components-cover.png",
+      "readTime": "8 min read",
+      "excerpt": "A computer is an electronic device following instructions stored in its own memory. Feed it data, it processes that data according to a defined set of rules, an…",
+      "wordCount": 1661
+    }
+  ]
+}

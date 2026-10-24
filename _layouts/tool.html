@@ -1,0 +1,67 @@
+---
+layout: page
+---
+
+{% assign tool_slug = page.slug %}
+{% assign incoming_tools = site.tools | where_exp: 'item', 'item.related contains tool_slug' %}
+{% assign related_posts = site.posts | where_exp: 'post', 'post.tags contains page.title' %}
+
+<div class="tool-page-shell">
+  <header class="tool-page-header">
+    <div class="tool-page-meta">
+      <span class="tool-category-badge">{{ page.category | default: 'network' | capitalize }}</span>
+    </div>
+
+    <div class="tool-tag-list">
+      {% for tag in page.tags %}
+        <span class="tool-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </header>
+
+  <article class="tool-content-body">
+    {{ content }}
+  </article>
+
+  {% assign backlinks_total = incoming_tools.size | plus: related_posts.size %}
+  {% if backlinks_total > 0 %}
+    <section class="tool-section">
+      <h2>Backlinks</h2>
+      <ul class="tool-backlinks-list">
+        {% for source_tool in incoming_tools %}
+          <li>
+            <a href="{{ source_tool.url | relative_url }}">{{ source_tool.title }}</a>
+            <span>mentions {{ page.title }}</span>
+          </li>
+        {% endfor %}
+
+        {% for post in related_posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <span>tagged with {{ page.title }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
+  <section class="tool-section">
+    <h2>Local graph</h2>
+    <div class="tool-local-graph-wrap">
+      <svg
+        id="tool-local-graph"
+        class="tool-local-graph"
+        data-graph-source="{{ '/assets/js/tools-graph.json' | relative_url }}"
+        data-node-id="{{ tool_slug }}"
+        data-local-graph="true"
+        aria-label="Local graph for {{ page.title }}"
+      ></svg>
+    </div>
+  </section>
+</div>
+
+<div id="tool-preview-card" class="tool-preview-card" hidden></div>
+
+<link rel="stylesheet" href="{{ '/assets/css/tools-graph.css' | relative_url }}">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="{{ '/assets/js/tools-graph.js' | relative_url }}"></script>

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+<article class="px-1 logs-page">
+  <h1 class="dynamic-title">
+    {{ site.data.locales[lang].tabs.logs | default: page.title }}
+  </h1>
+
+  <div class="logs-archive">
+    <div class="logs-intro">
+      <p class="logs-intro__text">A personal collection of learning notes, technical discoveries, and observations — captured as they happen.</p>
+    </div>
+
+    <div class="logs-controls">
+      <label class="logs-search-wrap" for="logs-search">
+        <i class="fas fa-search"></i>
+        <input id="logs-search" type="search" placeholder="Search logs by title, tag, or keyword..." aria-label="Search logs" autocomplete="off" />
+      </label>
+      <div class="logs-category-filters" id="logsCategoryFilters"></div>
+    </div>
+
+    <div class="logs-grid" id="logsGrid" data-basepath="{{ '/' | relative_url }}">
+      <p class="logs-loading"><i class="fas fa-spinner fa-pulse"></i> Loading logs...</p>
+    </div>
+  </div>
+</article>
+
+<link rel="stylesheet" href="{{ '/assets/css/logs-page.css' | relative_url }}">
+<script defer src="{{ '/assets/js/logs-page.js' | relative_url }}"></script>
