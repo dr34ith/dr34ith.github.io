@@ -1,0 +1,10 @@
+﻿Configuration file: C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_config.yml
+ Theme Config file: C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_config.yml
+            Source: C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main
+       Destination: C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 23.913 seconds.
+ Auto-regeneration: enabled for 'C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.

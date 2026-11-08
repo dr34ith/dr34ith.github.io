@@ -1,0 +1,91 @@
+﻿{
+    "categories":  [
+                       {
+                           "slug":  "defensive-security",
+                           "label":  "Defensive Security"
+                       },
+                       {
+                           "slug":  "web-security",
+                           "label":  "Web Security"
+                       },
+                       {
+                           "slug":  "challenges",
+                           "label":  "Challenges"
+                       }
+                   ],
+    "notes":  [
+                  {
+                      "slug":  "computer-forensics-fundamentals",
+                      "filename":  "defensive-security/computer-forensics.md",
+                      "title":  "Computer Forensics Fundamentals",
+                      "date":  "2026-07-30",
+                      "tags":  [
+                                   "blueteam",
+                                   "forensics",
+                                   "fundamentals",
+                                   "computerforensics",
+                                   "hardware"
+                               ],
+                      "category":  "defensive-security",
+                      "categoryLabel":  "Defensive Security",
+                      "cover":  "logs/assets/forensics/cover.jpg",
+                      "readTime":  "18 min read",
+                      "excerpt":  "Hello there! Let\u0027s talk about forensics, i\u0027ve been taking a short courses about computer forensics and here\u0027s some of my learnings and notes. Before we start leâ€¦",
+                      "wordCount":  3656
+                  },
+                  {
+                      "slug":  "bandit-overthewire",
+                      "filename":  "challenges/bandit.md",
+                      "title":  "Bandit (OverTheWire)",
+                      "date":  "2026-07-29",
+                      "tags":  [
+                                   "ctf",
+                                   "overthewire",
+                                   "linux",
+                                   "bandit",
+                                   "wargame",
+                                   "fundamentals"
+                               ],
+                      "category":  "challenges",
+                      "categoryLabel":  "Challenges",
+                      "cover":  "logs/assets/bandit/cover.png",
+                      "readTime":  "20 min read",
+                      "excerpt":  "Hello there! Bandit is OverTheWire\u0027s entry level wargame the one built to teach the basic Linux command line skills every other wargame on the platform assumesâ€¦",
+                      "wordCount":  3932
+                  },
+                  {
+                      "slug":  "blue-team-fundamentals",
+                      "filename":  "defensive-security/blue-team-fundamentals.md",
+                      "title":  "Blue Team Fundamentals",
+                      "date":  "2026-07-26",
+                      "tags":  [
+                                   "blueteam",
+                                   "soc",
+                                   "incident-response",
+                                   "fundamentals"
+                               ],
+                      "category":  "defensive-security",
+                      "categoryLabel":  "Defensive Security",
+                      "cover":  "logs/assets/blueteam.jpg",
+                      "readTime":  "5 min read",
+                      "excerpt":  "When we hear the term \"blue teaming,\" we tend to think it\u0027s just about defense and security but that\u0027s not the full picture. Blue teams are also responsible forâ€¦",
+                      "wordCount":  1039
+                  },
+                  {
+                      "slug":  "web-fundamentals",
+                      "filename":  "web-security/web-fundamentals.md",
+                      "title":  "Web Fundamentals",
+                      "date":  "2026-05-03",
+                      "tags":  [
+                                   "Website",
+                                   "Theory"
+                               ],
+                      "category":  "web-security",
+                      "categoryLabel":  "Web Security",
+                      "cover":  "logs/assets/website.webp",
+                      "readTime":  "6 min read",
+                      "excerpt":  "Let\u0027s now slow down to understand whats hapenning under the hood every time a browser talks to a server. This writeup covers the core building blocks of the webâ€¦",
+                      "wordCount":  1183
+                  }
+              ]
+}

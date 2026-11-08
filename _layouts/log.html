@@ -1,0 +1,137 @@
+---
+layout: default
+panel_includes:
+  - log-outline
+---
+
+{% include lang.html %}
+
+{% include toc-status.html %}
+
+<div id="log-reading-progress"></div>
+
+<article class="logs-article" data-toc="{{ enable_toc }}">
+  <header class="logs-article__header">
+    <nav class="logs-breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/logs/' | relative_url }}" class="logs-breadcrumb__link">
+        <i class="fas fa-book-open"></i> Logs
+      </a>
+      {% if page.category %}
+        <span class="logs-breadcrumb__sep">/</span>
+        <a href="{{ '/logs/' | relative_url }}#{{ page.category }}" class="logs-breadcrumb__cat">
+          {{ page.categoryLabel | default: page.category }}
+        </a>
+      {% endif %}
+    </nav>
+
+    <h1 class="logs-article__title">{{ page.title }}</h1>
+
+    <div class="logs-article__meta">
+      <span class="logs-meta__item">
+        <i class="far fa-calendar-alt"></i>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%b %d, %Y' }}</time>
+      </span>
+      <span class="logs-meta__item">
+        <i class="far fa-clock"></i>
+        {% include read-time.html content=content prompt=true lang=lang %}
+      </span>
+      {% if page.categoryLabel or page.category %}
+        <span class="logs-meta__badge">
+          {{ page.categoryLabel | default: page.category }}
+        </span>
+      {% endif %}
+    </div>
+
+    {% if page.tags.size > 0 %}
+      <div class="logs-article__tags-top">
+        {% for tag in page.tags %}
+          <span class="logs-tag-pill">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if page.cover %}
+      <div class="logs-cover">
+        <img src="{{ page.cover }}" class="logs-cover__img" alt="{{ page.title }}" loading="lazy">
+      </div>
+    {% endif %}
+  </header>
+
+  <!-- Mobile TOC toggle -->
+  {% if enable_toc %}
+    <button id="log-toc-mobile-toggle" class="logs-toc-mobile-btn" type="button" aria-expanded="false">
+      <i class="fa-solid fa-list-ul"></i> Contents
+      <i class="fa-solid fa-chevron-down logs-toc-chevron"></i>
+    </button>
+    <nav id="log-toc-mobile-dropdown" class="logs-toc-mobile-dropdown" aria-label="Table of contents">
+      <ol id="log-outline-list-mobile" class="log-outline-list"></ol>
+    </nav>
+  {% endif %}
+
+  <div class="logs-article__content content">
+    {{ content }}
+  </div>
+
+  <footer class="logs-article__footer">
+    <div class="logs-footer__end-mark">
+      <span class="logs-footer__line"></span>
+      <span class="logs-footer__label">END OF LOG</span>
+      <span class="logs-footer__line"></span>
+    </div>
+
+    {% if page.tags.size > 0 %}
+      <div class="logs-footer__tags">
+        <i class="fa fa-tags"></i>
+        {% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/" class="logs-footer__tag">
+            {{ tag }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div class="logs-footer__nav">
+      {% assign sorted_logs = site.logs | sort: 'date' | reverse %}
+      {% assign prev_log = nil %}
+      {% assign next_log = nil %}
+      {% assign found = false %}
+
+      {% for log in sorted_logs %}
+        {% if found and next_log == nil %}
+          {% assign next_log = log %}
+        {% endif %}
+        {% if log.url == page.url %}
+          {% assign found = true %}
+        {% endif %}
+        {% unless found %}
+          {% assign prev_log = log %}
+        {% endunless %}
+      {% endfor %}
+
+      <div class="logs-footer__nav-item logs-footer__nav-prev">
+        {% if next_log %}
+          <a href="{{ next_log.url | relative_url }}" class="logs-footer__nav-link">
+            <small><i class="fas fa-arrow-left"></i> Older</small>
+            <span>{{ next_log.title }}</span>
+          </a>
+        {% endif %}
+      </div>
+
+      <a href="{{ '/logs/' | relative_url }}" class="logs-footer__back-btn">
+        <i class="fas fa-th-large"></i> All Logs
+      </a>
+
+      <div class="logs-footer__nav-item logs-footer__nav-next">
+        {% if prev_log %}
+          <a href="{{ prev_log.url | relative_url }}" class="logs-footer__nav-link logs-footer__nav-link--right">
+            <small>Newer <i class="fas fa-arrow-right"></i></small>
+            <span>{{ prev_log.title }}</span>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </footer>
+</article>
+
+<link rel="stylesheet" href="{{ '/assets/css/log-detail.css' | relative_url }}">
+<script src="{{ '/assets/js/log-detail.js' | relative_url }}" defer></script>

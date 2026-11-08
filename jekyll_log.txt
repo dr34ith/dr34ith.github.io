@@ -1,0 +1,797 @@
+﻿Configuration file: C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_config.yml
+ Theme Config file: C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_config.yml
+            Source: C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main
+       Destination: C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 30.897 seconds.
+ Auto-regeneration: enabled for 'C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2026-11-05 22:45:09
+                    jekyll_log.txt
+                    ...done in 10.6820022 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:30:27
+                    jekyll_log.txt
+                    ...done in 13.1734869 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:30:40
+                    jekyll_log.txt
+                    ...done in 6.8079776 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:31:35
+                    _tabs/about.md
+                    ...done in 6.7525606 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:31:42
+                    jekyll_log.txt
+                    ...done in 7.4404811 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:31:59
+                    _tabs/about.md
+                    ...done in 7.764696 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:32:07
+                    jekyll_log.txt
+                    ...done in 7.5550335 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:32:28
+                    _tabs/about.md
+                    ...done in 7.2419923 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:32:35
+                    jekyll_log.txt
+                    ...done in 7.8188278 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:32:43
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 7.6627062 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:33:11
+                    _tabs/about.md
+                    ...done in 7.0257251 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:33:19
+                    jekyll_log.txt
+                    ...done in 6.6958155 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:33:25
+                    _tabs/about.md
+                    ...done in 7.0661387 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:33:35
+                    _tabs/about.md
+                    ...done in 6.6323614 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:33:42
+                    jekyll_log.txt
+                    ...done in 6.8557373 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:34:01
+                    _tabs/about.md
+                    ...done in 6.7962309 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:34:08
+                    jekyll_log.txt
+                    ...done in 7.0705183 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:34:18
+                    _tabs/about.md
+                    ...done in 6.8710548 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:34:25
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 6.0510484 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:35:27
+                    _tabs/about.md
+                    ...done in 6.8685961 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:35:34
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 6.8207595 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:38:53
+                    _tabs/about.md
+                    ...done in 6.5902156 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:39:00
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 6.6211401 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:39:06
+                    _tabs/about.md
+                    ...done in 6.4650154 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:39:13
+                    jekyll_log.txt
+                    ...done in 6.7480448 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:39:27
+                    _tabs/about.md
+                    ...done in 7.7271202 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:39:35
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 7.4405023 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:39:45
+                    _tabs/about.md
+                    ...done in 7.1636464 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:39:52
+                    jekyll_log.txt
+                    ...done in 6.2762008 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:40:07
+                    _tabs/about.md
+                    ...done in 7.0662068 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:40:14
+                    jekyll_log.txt
+                    ...done in 6.855818 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:40:21
+                    _tabs/about.md
+                    ...done in 7.174374 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:40:28
+                    _tabs/about.md
+                    ...done in 7.1649706 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:40:35
+                    _tabs/about.md
+                    ...done in 6.8024763 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:40:42
+                    _tabs/about.md
+                    ...done in 6.4693614 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:40:49
+                    _tabs/about.md
+                    ...done in 6.5267707 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:41:02
+                    _tabs/about.md
+                    ...done in 6.3605842 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:41:08
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 7.2066622 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:41:22
+                    _tabs/about.md
+                    ...done in 7.0207724 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:41:29
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 7.2148351 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:41:40
+                    _tabs/about.md
+                    ...done in 7.6702203 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:41:47
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 6.740611 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:41:54
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 7.6845231 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:42:02
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 6.5085331 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:42:15
+                    _tabs/about.md
+                    ...done in 6.7934069 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:42:22
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 6.9956637 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:42:33
+                    _tabs/about.md
+                    ...done in 7.5176976 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:42:41
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 7.1369918 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:42:48
+                    _tabs/about.md
+                    ...done in 6.8168736 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:43:31
+                    _tabs/about.md
+                    ...done in 7.3268637 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:43:39
+                    jekyll_log.txt
+                    ...done in 7.0831467 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:43:46
+                    _tabs/about.md
+                    ...done in 7.3536428 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:44:05
+                    _tabs/about.md
+                    ...done in 7.190335 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:44:12
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 7.0326459 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:44:19
+                    _tabs/about.md
+                    ...done in 6.2373531 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:44:25
+                    _tabs/about.md
+                    ...done in 6.7152705 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:45:35
+                    _tabs/about.md
+                    ...done in 6.1564135 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:45:42
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 6.4310269 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:46:22
+                    _tabs/about.md
+                    ...done in 6.2656505 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:46:28
+                    jekyll_log.txt
+                    ...done in 6.0438451 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:46:41
+                    _tabs/about.md
+                    ...done in 7.0698993 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:46:48
+                    jekyll_log.txt
+                    ...done in 6.5935631 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:46:56
+                    _tabs/about.md
+                    ...done in 6.9243373 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:47:03
+                    _tabs/about.md
+                    ...done in 6.924456 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:47:10
+                    jekyll_log.txt
+                    _tabs/about.md
+                    ...done in 6.7848617 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:47:19
+                    _tabs/about.md
+                    ...done in 6.8367289 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:47:26
+                    jekyll_log.txt
+                    ...done in 6.1040178 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:48:14
+                    _tabs/about.md
+                    ...done in 6.6135632 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:48:21
+                    jekyll_log.txt
+                    ...done in 6.2919808 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:50:34
+                    jekyll_log.txt
+                    ...done in 7.2632734 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:50:46
+                    jekyll_log.txt
+                    ...done in 9.6418995 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:50:58
+                    jekyll_log.txt
+                    ...done in 8.3234387 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:58:54
+                    _posts/2026-04-18-committed-sensitive-code.md
+                    ...done in 7.1775393 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:59:02
+                    _posts/2026-04-18-committed-sensitive-code.md
+                    ...done in 6.481937 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 00:59:43
+                    _posts/2026-04-18-smag-grotto.md
+                    ...done in 7.78934 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 00:59:51
+                    jekyll_log.txt
+                    _posts/2026-04-18-smag-grotto.md
+                    ...done in 6.798703 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:02:02
+                    jekyll_log.txt
+                    ...done in 15.6190913 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:02:18
+                    _posts/2026-08-05-brunnerctf-why-those-random-letters.md
+                    ...done in 19.7148712 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 01:02:38
+                    jekyll_log.txt
+                    _posts/2026-08-11-tcm-noob-village.md
+                    ...done in 11.4333542 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:02:49
+                    _posts/2026-08-11-tcm-noob-village.md
+                    ...done in 7.4972325 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 01:02:57
+                    jekyll_log.txt
+                    _posts/2026-08-11-tcm-noob-village.md
+                    ...done in 6.6728206 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:03:29
+                    _posts/2026-08-11-tcm-noob-village.md
+                    ...done in 8.203949 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:03:38
+                    jekyll_log.txt
+                    ...done in 7.9638181 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:04:56
+                    jekyll_log.txt
+                    ...done in 11.2239205 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:05:09
+                    jekyll_log.txt
+                    ...done in 9.1662861 seconds.
+                    
+      Regenerating: 8 file(s) changed at 2026-11-06 01:05:22
+                    _posts/2026-04-18-committed-sensitive-code.md
+                    _posts/2026-04-18-smag-grotto.md
+                    _posts/2026-04-26-jerseyctf-fix-your-ship.md
+                    _posts/2026-06-12-hawat-offsec-proving-grounds.md
+                    _posts/2026-08-08-tryhackme-hackerholidays-2026.md
+                    _posts/2026-08-11-tcm-noob-village.md
+                    _posts/2026-08-17-gaslightctf.md
+                    _posts/2026-09-08-scriptctf.md
+                    ...done in 28.2623083 seconds.
+                    
+      Regenerating: 9 file(s) changed at 2026-11-06 01:05:50
+                    jekyll_log.txt
+                    _posts/2026-04-18-committed-sensitive-code.md
+                    _posts/2026-04-18-smag-grotto.md
+                    _posts/2026-04-26-jerseyctf-fix-your-ship.md
+                    _posts/2026-06-12-hawat-offsec-proving-grounds.md
+                    _posts/2026-08-08-tryhackme-hackerholidays-2026.md
+                    _posts/2026-08-11-tcm-noob-village.md
+                    _posts/2026-08-17-gaslightctf.md
+                    _posts/2026-09-08-scriptctf.md
+                    ...done in 18.9069138 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:06:10
+                    _posts/2026-08-17-gaslightctf.md
+                    ...done in 46.3746601 seconds.
+                    
+      Regenerating: 7 file(s) changed at 2026-11-06 01:06:56
+                    _posts/2026-04-18-committed-sensitive-code.md
+                    jekyll_log.txt
+                    _posts/2026-04-18-smag-grotto.md
+                    _posts/2026-06-12-hawat-offsec-proving-grounds.md
+                    _posts/2026-08-11-tcm-noob-village.md
+                    _posts/2026-09-08-scriptctf.md
+                    _posts/2026-04-26-jerseyctf-fix-your-ship.md
+                    ...done in 10.033215 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:07:06
+                    jekyll_log.txt
+                    ...done in 6.9580333 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:14:42
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 7.8605329 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:14:50
+                    jekyll_log.txt
+                    ...done in 6.7197369 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:15:29
+                    jekyll_log.txt
+                    ...done in 9.178921 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:15:39
+                    jekyll_log.txt
+                    ...done in 6.6173121 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:15:48
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 11.8609281 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:16:00
+                    jekyll_log.txt
+                    ...done in 10.4780871 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:16:15
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 6.214509 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:16:23
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 6.010805 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:16:29
+                    jekyll_log.txt
+                    ...done in 5.9362689 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:16:36
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 5.8061238 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:16:41
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 5.9030425 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:16:48
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 6.1391768 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:25:17
+                    jekyll_log.txt
+                    ...done in 7.7854629 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:25:29
+                    jekyll_log.txt
+                    ...done in 6.2692916 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:27:28
+                    assets/img/posts/sherlocks-ctf-2026/01-investigation.png
+                    ...done in 13.5151593 seconds.
+                    
+      Regenerating: 5 file(s) changed at 2026-11-06 01:27:42
+                    assets/img/posts/sherlocks-ctf-2026/03-investigation.png
+                    assets/img/posts/sherlocks-ctf-2026/07-investigation.png
+                    assets/img/posts/sherlocks-ctf-2026/09-investigation.png
+                    assets/img/posts/sherlocks-ctf-2026/11-investigation.png
+                    assets/img/posts/sherlocks-ctf-2026/13-investigation.png
+                    ...done in 9.1058133 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:28:40
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 17.5474581 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:30:13
+                    _posts/2026-09-24-POO_MiniProLabs HTB.md
+                    ...done in 9.1566769 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:30:58
+                    _posts/2026-10-06-DanteProLabs.MD
+                    ...done in 6.405943 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:31:05
+                    jekyll_log.txt
+bundle : fatal: invalid object name 'C'.
+At line:1 char:302
++ ... xt' } catch {} } }; bundle exec jekyll serve --port 4000 2>&1 | Out-F ...
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: invalid object name 'C'.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[31m             Error: could not read file 
+C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_posts/2026-10-06-DanteProLabs.MD: No such file 
+or directory @ rb_sysopen - 
+C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_posts/2026-10-06-DanteProLabs.MD[0m
+                    ...done in 6.3571201 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 01:31:11
+                    jekyll_log.txt
+                    _posts/2026-10-06-DanteProLabs.md
+                    ...done in 6.6417941 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:32:12
+                    _posts/2026-10-06-DanteProLabs.md
+                    ...done in 6.5990994 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:32:19
+                    jekyll_log.txt
+                    ...done in 6.461459 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:34:49
+                    jekyll_log.txt
+                    ...done in 8.2693746 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:35:01
+                    jekyll_log.txt
+                    ...done in 7.18021 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:35:12
+                    jekyll_log.txt
+                    ...done in 7.0357924 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:35:49
+                    _posts/2026-09-24-POO_MiniProLabs HTB.md
+                    ...done in 10.975302 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2026-11-06 01:36:00
+                    jekyll_log.txt
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    _posts/image.png
+                    ...done in 12.6847788 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:38:15
+                    _posts/image-1.png
+                    ...done in 7.0489133 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:38:23
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 7.0269468 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:38:30
+                    jekyll_log.txt
+                    ...done in 6.9874126 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:38:58
+                    jekyll_log.txt
+                    ...done in 8.7789664 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:39:10
+                    jekyll_log.txt
+                    ...done in 6.9531105 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:39:18
+                    assets/img/posts/poo-mini-pro-lab/certificate-of-completion.jpg
+                    ...done in 8.6292681 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 01:39:27
+                    jekyll_log.txt
+                    _posts/2026-09-24-POO_MiniProLabs HTB.md
+                    ...done in 14.5808096 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:39:42
+                    jekyll_log.txt
+                    ...done in 7.2371907 seconds.
+                    
+[2026-11-06 01:41:58] ERROR '/image-1.png' not found.
+      Regenerating: 1 file(s) changed at 2026-11-06 01:42:04
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 6.6753951 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:42:11
+                    jekyll_log.txt
+                    ...done in 6.4411916 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:42:24
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 6.738052 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:42:30
+                    jekyll_log.txt
+                    ...done in 6.6133277 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:43:00
+                    jekyll_log.txt
+                    ...done in 9.3018558 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:45:01
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 7.1415281 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:45:08
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 6.9886176 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:45:15
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 7.4557221 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:45:23
+                    assets/img/posts/sherlocks-ctf-2026/the-ledger.png
+                    ...done in 20.7420702 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:45:44
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 9.2828863 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:47:57
+                    jekyll_log.txt
+                    ...done in 10.7073935 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:48:10
+                    jekyll_log.txt
+                    ...done in 6.8867164 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:48:21
+                    jekyll_log.txt
+                    ...done in 7.1442787 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:49:04
+                    jekyll_log.txt
+                    ...done in 8.0684381 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:49:28
+                    jekyll_log.txt
+                    ...done in 7.1534744 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:49:43
+                    assets/img/posts/sherlocks-ctf-2026/01-rdp-connection.png
+                    ...done in 9.4869784 seconds.
+                    
+      Regenerating: 24 file(s) changed at 2026-11-06 01:49:53
+                    jekyll_log.txt
+                    assets/img/posts/sherlocks-ctf-2026/02-rdp-credentials.png
+                    assets/img/posts/sherlocks-ctf-2026/03-version-file.png
+                    assets/img/posts/sherlocks-ctf-2026/04-add-data-source.png
+                    assets/img/posts/sherlocks-ctf-2026/05-data-source-added.png
+                    assets/img/posts/sherlocks-ctf-2026/06-desktop-artifacts.png
+                    assets/img/posts/sherlocks-ctf-2026/07-openvpn-directory.png
+                    assets/img/posts/sherlocks-ctf-2026/08-recent-openvpn-files.png
+                    assets/img/posts/sherlocks-ctf-2026/09-openvpn-log-directory.png
+                    assets/img/posts/sherlocks-ctf-2026/10-deleted-openvpn-log.png
+                    assets/img/posts/sherlocks-ctf-2026/11-tactical-agent-directory.png
+                    assets/img/posts/sherlocks-ctf-2026/12-tactical-agent-files.png
+                    assets/img/posts/sherlocks-ctf-2026/13-agent-log.png
+                    assets/img/posts/sherlocks-ctf-2026/14-tactical-analysis.png
+                    assets/img/posts/sherlocks-ctf-2026/15-uninstaller-artifact.png
+                    assets/img/posts/sherlocks-ctf-2026/16-installed-programs.png
+                    assets/img/posts/sherlocks-ctf-2026/17-tactical-installed-program.png
+                    assets/img/posts/sherlocks-ctf-2026/18-tactical-registry.png
+                    assets/img/posts/sherlocks-ctf-2026/19-scheduled-tasks.png
+                    assets/img/posts/sherlocks-ctf-2026/20-deleted-user-data.png
+                    assets/img/posts/sherlocks-ctf-2026/21-gajim-database.png
+                    assets/img/posts/sherlocks-ctf-2026/22-settings-database.png
+                    assets/img/posts/sherlocks-ctf-2026/23-prefetch-timeline.png
+                    assets/img/posts/sherlocks-ctf-2026/24-user-profile-artifact.png
+                    ...done in 10.1988714 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:50:03
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 10.4985762 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:50:14
+                    jekyll_log.txt
+                    ...done in 8.7427735 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:50:25
+                    jekyll_log.txt
+                    ...done in 8.7434918 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 01:50:36
+                    jekyll_log.txt
+                    ...done in 6.2000537 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:02:14
+                    _logs/foundations/security-principles.md
+                    ...done in 8.9526342 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:02:23
+                    jekyll_log.txt
+                    ...done in 6.9521539 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:02:30
+                    _logs/offensive-security/red-team-lab-setup.md
+                    ...done in 7.1577452 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:02:45
+                    _logs/offensive-security/red-team-lab-setup.md
+                    ...done in 7.5662379 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:02:53
+                    jekyll_log.txt
+                    ...done in 7.6864246 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:03:42
+                    jekyll_log.txt
+                    ...done in 8.5356036 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:25:41
+                    _posts/2026-04-18-smag-grotto.md
+                    ...done in 17.039307 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 02:25:58
+                    jekyll_log.txt
+                    _posts/2026-04-18-smag-grotto.md
+                    ...done in 12.096459 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 02:26:10
+                    _posts/2026-04-18-committed-sensitive-code.md
+                    _posts/2026-04-18-smag-grotto.md
+                    ...done in 12.1565031 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:26:23
+                    _posts/2026-09-24-POO_MiniProLabs HTB.md
+                    ...done in 17.7682718 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 02:26:40
+                    _posts/2026-04-18-smag-grotto.md
+                    _posts/2026-09-24-POO_MiniProLabs HTB.md
+                    ...done in 20.7707492 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 02:27:01
+                    _posts/2026-04-26-jerseyctf-fix-your-ship.md
+                    _posts/2026-09-24-POO_MiniProLabs HTB.md
+                    ...done in 11.2932581 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 02:27:13
+                    _posts/2026-08-17-gaslightctf.md
+                    _posts/2026-09-24-POO_MiniProLabs HTB.md
+                    ...done in 10.725156 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 02:27:24
+                    _posts/2026-06-12-hawat-offsec-proving-grounds.md
+                    _posts/2026-09-24-POO_MiniProLabs HTB.md
+                    ...done in 13.2309105 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:27:37
+                    _posts/2026-09-08-scriptctf.md
+                    ...done in 13.7356676 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 02:27:51
+                    _posts/2026-08-11-tcm-noob-village.md
+                    _posts/2026-09-24-POO_MiniProLabs HTB.md
+                    ...done in 12.5754745 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:28:04
+                    _posts/2026-08-08-tryhackme-hackerholidays-2026.md
+                    ...done in 10.7437627 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:28:28
+                    _posts/2026-08-08-tryhackme-hackerholidays-2026.md
+                    ...done in 10.0505895 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:28:38
+                    jekyll_log.txt
+                    ...done in 8.7643987 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-06 02:28:47
+                    jekyll_log.txt
+                    _posts/2026-08-08-tryhackme-hackerholidays-2026.md
+                    ...done in 7.1339188 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:29:43
+                    _posts/2026-09-21-SherlocksCTF2026.md
+                    ...done in 7.8514185 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:29:51
+                    jekyll_log.txt
+                    ...done in 11.3807934 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:30:03
+                    jekyll_log.txt
+                    ...done in 7.9765553 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:30:55
+                    _posts/2026-08-05-brunnerctf-why-those-random-letters.md
+                    ...done in 8.3227397 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:31:03
+                    jekyll_log.txt
+                    ...done in 11.7755028 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:31:23
+                    jekyll_log.txt
+[2026-11-06 02:31:29] ERROR '/posts/POO-Mini-Pro-Lab/' not found.
+                    ...done in 9.4263234 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-06 02:31:32
+                    jekyll_log.txt
+                    ...done in 7.9284672 seconds.
+                    

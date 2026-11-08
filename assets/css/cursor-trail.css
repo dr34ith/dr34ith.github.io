@@ -1,0 +1,26 @@
+.cursor-trail-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  margin: -11px 0 0 -11px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  background: radial-gradient(circle, rgba(155, 89, 182, 0.5) 0%, rgba(125, 211, 252, 0.18) 55%, transparent 75%);
+  box-shadow: 0 0 14px rgba(155, 89, 182, 0.35);
+  transition: opacity 0.25s ease;
+  will-change: transform;
+}
+
+.cursor-trail-dot.is-active {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .cursor-trail-dot {
+    display: none;
+  }
+}

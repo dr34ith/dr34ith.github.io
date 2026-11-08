@@ -1,0 +1,85 @@
+/* Always-visible writeup outline, sits under the post meta block */
+
+.post-outline {
+  border: 1px solid var(--border-color, rgba(128, 128, 128, 0.25));
+  background: var(--card-bg, rgba(128, 128, 128, 0.05));
+  border-radius: 10px;
+  padding: 0.9rem 1.1rem 1rem;
+}
+
+.post-outline-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--text-color, inherit);
+}
+
+.post-outline-title i {
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+.post-outline-list,
+.post-outline-sublist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-outline-list {
+  counter-reset: outline-counter;
+}
+
+.post-outline-list > li {
+  counter-increment: outline-counter;
+  margin: 0.15rem 0;
+}
+
+.post-outline-list > li > .post-outline-link::before {
+  content: counter(outline-counter) '. ';
+  opacity: 0.6;
+  font-variant-numeric: tabular-nums;
+}
+
+.post-outline-sublist {
+  padding-left: 1.35rem;
+  margin-top: 0.15rem;
+  margin-bottom: 0.3rem;
+}
+
+.post-outline-sublist > li {
+  margin: 0.15rem 0;
+  position: relative;
+}
+
+.post-outline-sublist > li::before {
+  content: '';
+  position: absolute;
+  left: -0.85rem;
+  top: 0.72rem;
+  width: 0.5rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.3;
+}
+
+.post-outline-link {
+  display: inline-block;
+  padding: 0.1rem 0;
+  color: var(--link-color, #6c5ce7);
+  text-decoration: none;
+  line-height: 1.45;
+}
+
+.post-outline-link:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+  .post-outline {
+    padding: 1rem 1.25rem 1.1rem;
+  }
+}

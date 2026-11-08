@@ -1,0 +1,222 @@
+/* ============================================
+   ABOUT ME — Pink Enhancements + Animated Cat
+   Scoped to .about-gallery context
+   ============================================ */
+
+/* --- Pink Particles Canvas --- */
+.about-pink-particles {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --- Subtle pink glow overlays on exhibit cards --- */
+.about-gallery__exhibit {
+  box-shadow: 0 0 0 transparent;
+}
+.about-gallery__exhibit:hover {
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.3),
+    0 0 25px rgba(236, 72, 153, 0.1),
+    0 0 50px rgba(155, 89, 182, 0.06);
+}
+
+/* Pink-ify the label dots */
+.about-gallery__label::before {
+  background: #ec4899;
+  box-shadow: 0 0 10px #ec4899, 0 0 20px rgba(236, 72, 153, 0.3);
+}
+
+/* Exhibit top beam — add pink */
+.about-gallery__exhibit::after {
+  background: linear-gradient(90deg, transparent, #ec4899, #d946ef, #9b59b6, transparent);
+  background-size: 200% 100%;
+}
+
+/* Bible verse — pink accent */
+.bible-verse-box {
+  border-left-color: #d946ef;
+  background: linear-gradient(90deg, rgba(217, 70, 239, 0.08) 0%, rgba(236, 72, 153, 0.04) 50%, transparent 100%);
+}
+
+/* Footer link — pink hover */
+.about-gallery__footer a:hover {
+  color: #ec4899 !important;
+}
+
+/* ============================================
+   CUTE ANIMATED CAT
+   ============================================ */
+.about-cat {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  margin-bottom: -0.5rem;
+  animation: catFloat 4s ease-in-out infinite;
+}
+
+@keyframes catFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.about-cat__body {
+  position: relative;
+  width: 52px;
+  height: 44px;
+  background: linear-gradient(135deg, #c084fc 0%, #d946ef 50%, #ec4899 100%);
+  border-radius: 50% 50% 46% 46% / 60% 60% 42% 42%;
+}
+
+/* Ears */
+.about-cat__ears {
+  position: absolute;
+  top: -10px;
+  left: 4px;
+  right: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-cat__ear {
+  width: 14px;
+  height: 16px;
+  background: linear-gradient(135deg, #c084fc, #d946ef);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.about-cat__ear--left {
+  transform: rotate(-8deg);
+}
+.about-cat__ear--right {
+  transform: rotate(8deg);
+}
+
+/* Face */
+.about-cat__face {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+}
+
+/* Eyes */
+.about-cat__eyes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 3px;
+}
+
+.about-cat__eye {
+  width: 10px;
+  height: 10px;
+  background: #1a0a2e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: catBlink 4s ease-in-out infinite;
+}
+.about-cat__eye--left  { animation-delay: 0s; }
+.about-cat__eye--right { animation-delay: 0.1s; }
+
+@keyframes catBlink {
+  0%, 42%, 48%, 100% { transform: scaleY(1); }
+  45% { transform: scaleY(0.08); }
+}
+
+.about-cat__pupil {
+  width: 4px;
+  height: 5px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+/* Nose */
+.about-cat__nose {
+  width: 5px;
+  height: 3.5px;
+  background: #fca5c8;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  margin: 0 auto;
+}
+
+/* Mouth */
+.about-cat__mouth {
+  width: 10px;
+  height: 4px;
+  margin: 0 auto;
+  border-bottom: 1.5px solid rgba(26, 10, 46, 0.4);
+  border-radius: 0 0 50% 50%;
+}
+
+/* Whiskers */
+.about-cat__whiskers {
+  position: absolute;
+  top: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5px;
+}
+.about-cat__whiskers--left {
+  left: 2px;
+}
+.about-cat__whiskers--right {
+  right: 2px;
+}
+.about-cat__whiskers span {
+  display: block;
+  width: 14px;
+  height: 1px;
+  background: rgba(26, 10, 46, 0.25);
+}
+.about-cat__whiskers--left span:nth-child(1) { transform: rotate(-12deg); }
+.about-cat__whiskers--left span:nth-child(2) { transform: rotate(0deg); }
+.about-cat__whiskers--left span:nth-child(3) { transform: rotate(12deg); }
+.about-cat__whiskers--right span:nth-child(1) { transform: rotate(12deg); }
+.about-cat__whiskers--right span:nth-child(2) { transform: rotate(0deg); }
+.about-cat__whiskers--right span:nth-child(3) { transform: rotate(-12deg); }
+
+/* Tail */
+.about-cat__tail {
+  position: absolute;
+  bottom: 2px;
+  right: -14px;
+  width: 22px;
+  height: 10px;
+  border: 3px solid transparent;
+  border-top-color: #c084fc;
+  border-radius: 0 50% 0 0;
+  transform-origin: left center;
+  animation: catTailWag 2.5s ease-in-out infinite;
+}
+
+@keyframes catTailWag {
+  0%, 100% { transform: rotate(-8deg); }
+  50% { transform: rotate(12deg); }
+}
+
+/* --- Responsive --- */
+@media (max-width: 576px) {
+  .about-cat {
+    margin-right: 0.5rem;
+  }
+  .about-cat__body {
+    width: 42px;
+    height: 36px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-cat,
+  .about-cat__eye,
+  .about-cat__tail {
+    animation: none !important;
+  }
+}

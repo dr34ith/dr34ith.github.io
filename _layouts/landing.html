@@ -1,0 +1,130 @@
+---
+layout: compress
+---
+
+<!doctype html>
+
+{% include origin-type.html %}
+{% include lang.html %}
+
+<html
+  lang="{{ page.lang | default: site.alt_lang | default: site.lang }}"
+  {% if site.theme_mode == 'light' or site.theme_mode == 'dark' -%}
+    data-bs-theme="{{ site.theme_mode }}"
+  {%- endif -%}
+>
+  {% include head.html lang=lang %}
+
+  <body class="landing-page">
+    <div id="galaxy-bg" aria-hidden="true">
+      <div class="galaxy-nebula nebula-1"></div>
+      <div class="galaxy-nebula nebula-2"></div>
+      <div class="galaxy-nebula nebula-3"></div>
+      <canvas id="starfield"></canvas>
+    </div>
+
+    <header class="landing-nav">
+      <a href="{{ '/' | relative_url }}" class="landing-nav__brand">
+        <i class="fas fa-terminal" aria-hidden="true"></i>
+        <span>{{ site.title }}</span>
+      </a>
+
+      <nav class="landing-nav__links" aria-label="Primary navigation">
+        <a href="{{ '/writeups/' | relative_url }}">Writeups</a>
+        <a href="{{ '/logs/' | relative_url }}">Logs</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
+
+      <div class="landing-nav__social">
+        {% for link in site.social.links %}
+          {% assign icon = 'fas fa-globe' %}
+          {% if link contains 'github.com' %}
+            {% assign icon = 'fab fa-github' %}
+          {% elsif link contains 'linkedin.com' %}
+            {% assign icon = 'fab fa-linkedin' %}
+          {% elsif link contains 'ctftime.org' %}
+            {% assign icon = 'fas fa-flag-checkered' %}
+          {% endif %}
+          <a href="{{ link }}" target="_blank" rel="noopener noreferrer" aria-label="external link">
+            <i class="{{ icon }}" aria-hidden="true"></i>
+          </a>
+        {% endfor %}
+      </div>
+    </header>
+
+    <main class="landing-hero">
+      <div class="landing-hero__content">
+        <span class="landing-hero__badge">{{ site.tagline }}</span>
+
+        <h1 class="landing-hero__title">
+          <span class="prompt-arrow" aria-hidden="true">&gt;</span>
+          <span class="landing-hero__typed" data-landing-type>whoami</span>
+        </h1>
+
+        <p class="landing-hero__lede">
+          {{ site.description }}
+        </p>
+
+        <div class="landing-hero__cta">
+          <a href="{{ '/writeups/' | relative_url }}" class="landing-btn landing-btn--primary">
+            <i class="fas fa-terminal" aria-hidden="true"></i> Read Writeups
+          </a>
+          <a href="{{ '/logs/' | relative_url }}" class="landing-btn landing-btn--ghost">
+            <i class="fas fa-book" aria-hidden="true"></i> Explore Logs
+          </a>
+        </div>
+
+        <div class="landing-hero__prompt" aria-hidden="true">
+          <span>&gt; documenting &middot; breaking &middot; learning</span><span class="landing-hero__cursor"></span>
+        </div>
+      </div>
+
+      <a href="#landing-tracks" class="landing-scroll-cue" aria-label="Scroll down">
+        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </main>
+
+    <section id="landing-tracks" class="landing-tracks">
+      <span class="landing-tracks__label">What's on this site</span>
+
+      <div class="landing-tracks__grid">
+        <a href="{{ '/writeups/' | relative_url }}" class="landing-track reveal-on-scroll">
+          <i class="fas fa-flag fa-fw" aria-hidden="true"></i>
+          <h3>Writeups</h3>
+          <p>CTF writeups and walkthroughs.</p>
+        </a>
+
+        <a href="{{ '/logs/' | relative_url }}" class="landing-track reveal-on-scroll">
+          <i class="fas fa-shield-halved fa-fw" aria-hidden="true"></i>
+          <h3>Defensive Security</h3>
+          <p>Blue team notes, detection, and incident response.</p>
+        </a>
+
+        <a href="{{ '/logs/' | relative_url }}" class="landing-track reveal-on-scroll">
+          <i class="fas fa-globe fa-fw" aria-hidden="true"></i>
+          <h3>Web Security</h3>
+          <p>Web fundamentals and offensive/defensive basics.</p>
+        </a>
+
+        <a href="{{ '/about/' | relative_url }}" class="landing-track reveal-on-scroll">
+          <i class="fas fa-user-astronaut fa-fw" aria-hidden="true"></i>
+          <h3>About</h3>
+          <p>Who's behind the terminal.</p>
+        </a>
+      </div>
+    </section>
+
+    <footer class="landing-footer">
+      <span>&copy; {{ 'now' | date: '%Y' }} {{ site.social.name }}.</span>
+      <span class="landing-footer__dash">&middot;</span>
+      <span>Built with Jekyll &amp; Chirpy.</span>
+    </footer>
+
+    <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/cursor-trail.css' | relative_url }}">
+    <script src="{{ '/assets/js/starfield.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/landing.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/cursor-trail.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/scroll-reveal.js' | relative_url }}" defer></script>
+  </body>
+</html>

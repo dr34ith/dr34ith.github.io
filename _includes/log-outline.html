@@ -1,0 +1,21 @@
+{% include toc-status.html %}
+
+{% if enable_toc %}
+  <section id="log-outline-wrapper" class="log-outline-panel ps-0 pe-2 pb-4">
+    <div class="log-outline-container">
+      <h2 class="log-outline-heading">
+        <i class="fa-solid fa-compass fa-fw"></i> On This Page
+      </h2>
+      <nav id="log-outline-nav">
+        <ol id="log-outline-list" class="log-outline-list"></ol>
+      </nav>
+    </div>
+
+    <div class="log-nodes-panel" id="logNodesPanel">
+      <h3 class="log-nodes-heading">
+        <i class="fa-solid fa-diagram-project fa-fw"></i> Related Nodes
+      </h3>
+      <canvas id="logNodesCanvas" class="log-nodes-canvas" width="240" height="160"></canvas>
+    </div>
+  </section>
+{% endif %}
