@@ -3,7 +3,7 @@ lang: en
 timezone: Asia/Manila
 title: Dreaith
 tagline: dora the explorer
-description: CTF writeups, walkthroughs, and security learning logs by Dreaith.
+description: Step-by-step CTF writeups and security study notes from Dreaith, documenting how each challenge was solved and what it taught along the way.
 url: https://dr34ith.github.io
 baseurl: ""
 
@@ -12,7 +12,6 @@ social:
   email: dr34ith@gmail.com
   links:
     - https://github.com/dr34ith
-    - https://www.linkedin.com/in/andreann/
     - https://ctftime.org/user/247886
 
 github:
