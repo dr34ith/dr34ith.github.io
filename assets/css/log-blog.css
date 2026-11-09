@@ -4,15 +4,34 @@
    Loaded after log-detail.css so these rules win.
    ===================================================== */
 body:has(.logs-article) {
-  --lb-bg: #fbfaf8;
-  --lb-surface: #ffffff;
+  --lb-bg: #e8e5de;
+  --lb-surface: #f0ede6;
   --lb-text: #26232f;
   --lb-heading: #17132a;
-  --lb-muted: #6b6878;
-  --lb-line: #e8e4ef;
+  --lb-muted: #55515f;
+  --lb-line: #d3cec2;
   --lb-accent: #6d28d9;
-  --lb-accent-soft: #f1eafe;
+  --lb-accent-soft: #e6def5;
   --lb-serif: Georgia, 'Times New Roman', 'Noto Serif', serif;
+  /* override the dark-theme variables Chirpy components read */
+  --tb-odd-bg: #f0ede6;
+  --tb-even-bg: #e4e0d6;
+  --tb-border-color: #cfcabd;
+  --blockquote-border-color: #c4b5fd;
+  --blockquote-text-color: #4b4560;
+  --kbd-wrap-color: #b5aecb;
+  --kbd-text-color: #26232f;
+  --kbd-bg-color: #e4e0d6;
+  --prompt-text-color: #26232f;
+  --prompt-tip-bg: #dcebd9;
+  --prompt-info-bg: #d6e4f2;
+  --prompt-warning-bg: #f1e4bf;
+  --prompt-danger-bg: #f0d5cc;
+  --code-color: #26203a;
+  --inline-code-bg: #dcd7e6;
+  --text-color: #26232f;
+  --heading-color: #17132a;
+  --highlight-bg-color: #dfdbd0;
 }
 
 html:has(.logs-article),
@@ -28,7 +47,7 @@ body.logs-page-active #main-wrapper { background: transparent !important; }
 
 /* ---------- page chrome: sidebar, topbar, footer ---------- */
 body:has(.logs-article) #sidebar {
-  background: #f3f0f9 !important;
+  background: #ddd9d0 !important;
   border-right: 1px solid var(--lb-line);
 }
 body:has(.logs-article) #sidebar .site-title,
@@ -37,7 +56,7 @@ body:has(.logs-article) #sidebar .site-subtitle { color: var(--lb-muted) !import
 body:has(.logs-article) #sidebar .nav-link,
 body:has(.logs-article) #sidebar .nav-link span,
 body:has(.logs-article) #sidebar .nav-link i { color: #4b4560 !important; }
-body:has(.logs-article) #sidebar .nav-link:hover { background: #e9e2f8 !important; }
+body:has(.logs-article) #sidebar .nav-link:hover { background: #d0cadf !important; }
 body:has(.logs-article) #sidebar .nav-item.active .nav-link,
 body:has(.logs-article) #sidebar .nav-item.active .nav-link span,
 body:has(.logs-article) #sidebar .nav-item.active .nav-link i { color: var(--lb-accent) !important; }
@@ -46,7 +65,7 @@ body:has(.logs-article) #sidebar .sidebar-bottom a,
 body:has(.logs-article) #sidebar .sidebar-bottom i { color: var(--lb-muted) !important; }
 
 body:has(.logs-article) #topbar-wrapper {
-  background: rgba(251, 250, 248, 0.94) !important;
+  background: rgba(232, 229, 222, 0.94) !important;
   box-shadow: 0 1px 0 var(--lb-line) !important;
 }
 body:has(.logs-article) #topbar-wrapper,
@@ -55,7 +74,7 @@ body:has(.logs-article) #topbar-wrapper span,
 body:has(.logs-article) #topbar-wrapper i { color: var(--lb-muted) !important; }
 body:has(.logs-article) #topbar-wrapper a:hover { color: var(--lb-accent) !important; }
 body:has(.logs-article) #search-wrapper {
-  background: #fff !important;
+  background: var(--lb-surface) !important;
   border: 1px solid var(--lb-line) !important;
 }
 body:has(.logs-article) #search-input { color: var(--lb-text) !important; }
@@ -81,7 +100,7 @@ body:has(.logs-article) main[aria-label='Main Content'] {
 /* ---------- header ---------- */
 .logs-breadcrumb__link { color: var(--lb-accent); }
 .logs-breadcrumb__link:hover { color: #4c1d95; }
-.logs-breadcrumb__sep { color: #b9b4c6; }
+.logs-breadcrumb__sep { color: #6b6678; }
 .logs-breadcrumb__cat { color: var(--lb-muted); }
 .logs-breadcrumb__cat:hover { color: var(--lb-accent); }
 
@@ -107,7 +126,7 @@ body:has(.logs-article) main[aria-label='Main Content'] {
   color: var(--lb-accent);
 }
 .logs-tag-pill {
-  background: #f3f1f7;
+  background: #dedad1;
   border: 1px solid var(--lb-line);
   color: #5b5670;
 }
@@ -184,7 +203,7 @@ body:has(.logs-article) .logs-article__content h6 {
 
 /* inline code + code/diagram blocks */
 body:has(.logs-article) .logs-article__content :not(pre) > code {
-  background: #f1eefa;
+  background: #dcd7e6;
   border: 0;
   color: #5b21b6;
   padding: 0.12em 0.4em;
@@ -192,7 +211,7 @@ body:has(.logs-article) .logs-article__content :not(pre) > code {
   font-size: 0.86em;
 }
 body:has(.logs-article) .logs-article__content pre {
-  background: #f6f4fb !important;
+  background: #dfdbd0 !important;
   border: 1px solid var(--lb-line);
   color: #2b2540;
   border-radius: 10px;
@@ -201,7 +220,7 @@ body:has(.logs-article) .logs-article__content pre {
 }
 .logs-article__content pre::-webkit-scrollbar-thumb { background: #cfc7e6; }
 .logs-code-copy {
-  background: #fff;
+  background: var(--lb-surface);
   border-color: var(--lb-line);
   color: var(--lb-muted);
 }
@@ -221,13 +240,13 @@ body:has(.logs-article) .logs-article__content pre {
 .logs-article__content p > img { margin-left: auto; margin-right: auto; }
 
 /* tables + quotes */
-.logs-article__content table { border: 1px solid var(--lb-line); background: #fff; }
-.logs-article__content thead { background: #f4f1fb; }
+.logs-article__content table { border: 1px solid var(--lb-line); background: var(--lb-surface); }
+.logs-article__content thead { background: #dcd8cf; }
 .logs-article__content th { color: var(--lb-heading); border-bottom: 2px solid #e2dcf0; }
 .logs-article__content td { color: #3a3550; border-bottom: 1px solid #efebf5; }
-.logs-article__content tbody tr:hover { background: #faf8fe; }
+.logs-article__content tbody tr:hover { background: #e2dfd7; }
 .logs-article__content blockquote {
-  background: #faf7ff;
+  background: #e1dcea;
   border-left: 4px solid #c4b5fd;
   color: #4b4560;
   font-style: italic;
@@ -235,10 +254,10 @@ body:has(.logs-article) .logs-article__content pre {
 
 /* ---------- footer of the note ---------- */
 .logs-footer__line { background: var(--lb-line); }
-.logs-footer__label { color: #a59fb7; }
-.logs-footer__tags > i { color: #a59fb7; }
+.logs-footer__label { color: #5f5a70; }
+.logs-footer__tags > i { color: #5f5a70; }
 .logs-footer__tag {
-  background: #f3f1f7;
+  background: #dedad1;
   border: 1px solid var(--lb-line);
   color: #5b5670;
 }
@@ -294,12 +313,12 @@ body:has(.logs-article) #panel-wrapper h2 { color: var(--lb-heading) !important;
 
 /* ---------- mobile contents dropdown ---------- */
 .logs-toc-mobile-btn {
-  background: #fff;
+  background: var(--lb-surface);
   border: 1px solid var(--lb-line);
   color: var(--lb-accent);
 }
 .logs-toc-mobile-dropdown {
-  background: #fff;
+  background: var(--lb-surface);
   border: 1px solid var(--lb-line);
 }
 body:has(.logs-article) .logs-toc-mobile-dropdown a { color: #4b4560; }
@@ -325,7 +344,7 @@ body:has(.logs-article) .logs-toc-mobile-dropdown a { color: #4b4560; }
 
 /* search box + mobile title were still dark-mode colours */
 body:has(.logs-article) #topbar-wrapper #search {
-  background: #fff !important;
+  background: var(--lb-surface) !important;
   border: 1px solid var(--lb-line) !important;
   box-shadow: none !important;
 }
@@ -342,3 +361,62 @@ body:has(.logs-article) #search-trigger i { color: #4b4560 !important; }
 body:has(.logs-article) #panel-wrapper *,
 body:has(.logs-article) #topbar-wrapper * { text-shadow: none !important; }
 body:has(.logs-article) #panel-wrapper .panel-heading { color: var(--lb-heading) !important; }
+
+/* ---------- force readable (dark) text everywhere in a log note ---------- */
+body:has(.logs-article) main .text-muted,
+body:has(.logs-article) main .small,
+body:has(.logs-article) main .post-meta,
+body:has(.logs-article) main small { color: var(--lb-muted) !important; }
+body:has(.logs-article) main h1 {
+  color: var(--lb-heading) !important;
+  text-shadow: none !important;
+}
+body:has(.logs-article) .logs-article__content :is(span, td, th, small, figcaption, dd, dt, em) { color: inherit; }
+body:has(.logs-article) .logs-article__content td,
+body:has(.logs-article) .logs-article__content th { color: #2f2a3f !important; }
+body:has(.logs-article) .logs-article__content em { color: var(--lb-text); }
+/* commands / code: always dark text on the darker code background */
+body:has(.logs-article) .logs-article__content pre,
+body:has(.logs-article) .logs-article__content pre code,
+body:has(.logs-article) .logs-article__content .highlight,
+body:has(.logs-article) .logs-article__content .highlight span,
+body:has(.logs-article) .logs-article__content .highlighter-rouge { color: #26203a !important; }
+body:has(.logs-article) .logs-article__content div.highlight,
+body:has(.logs-article) .logs-article__content div[class^='language-'] { background: #dfdbd0 !important; }
+body:has(.logs-article) .logs-article__content :not(pre) > code { color: #4c1d95 !important; }
+
+/* ---------- tables: light zebra rows, dark text ---------- */
+body:has(.logs-article) .logs-article__content .table-wrapper {
+  border: 1px solid var(--lb-line);
+  border-radius: 10px;
+  background: var(--lb-surface);
+}
+body:has(.logs-article) .logs-article__content .table-wrapper > table,
+body:has(.logs-article) .logs-article__content table {
+  border: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+body:has(.logs-article) .logs-article__content table tbody tr:nth-child(odd) { background: #f0ede6 !important; }
+body:has(.logs-article) .logs-article__content table tbody tr:nth-child(even) { background: #e4e0d6 !important; }
+body:has(.logs-article) .logs-article__content table tbody tr:hover { background: #d9d4e8 !important; }
+body:has(.logs-article) .logs-article__content table thead,
+body:has(.logs-article) .logs-article__content table thead tr { background: #d3cec2 !important; }
+body:has(.logs-article) .logs-article__content table th,
+body:has(.logs-article) .logs-article__content table td {
+  color: #26232f !important;
+  border-bottom: 1px solid #cfcabd !important;
+  padding: 0.7rem 0.9rem;
+}
+body:has(.logs-article) .logs-article__content table th { color: #17132a !important; }
+body:has(.logs-article) .logs-article__content table td code { background: #dcd7e6; }
+body:has(.logs-article) .logs-article__content blockquote,
+body:has(.logs-article) .logs-article__content blockquote p { color: #4b4560 !important; }
+body:has(.logs-article) .logs-article__content kbd { background: #e4e0d6; color: #26232f; border-color: #b5aecb; box-shadow: none; }
+body:has(.logs-article) .logs-article__content a:focus-visible { outline: 2px solid var(--lb-accent); outline-offset: 2px; }
+
+/* tables: wrap long descriptions instead of cutting them off */
+body:has(.logs-article) .logs-article__content table { display: table; width: 100%; table-layout: auto; }
+body:has(.logs-article) .logs-article__content table td { white-space: normal; overflow-wrap: anywhere; min-width: 8rem; }
+body:has(.logs-article) .logs-article__content .table-wrapper { overflow-x: auto; }
+body:has(.logs-article) .logs-article__content table tbody tr:last-child td { border-bottom: 0 !important; }

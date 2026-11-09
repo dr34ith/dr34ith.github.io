@@ -267,3 +267,168 @@ C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_logs/repo
                     _tabs/about.md
                     ...done in 8.2634563 seconds.
                     
+      Regenerating: 1 file(s) changed at 2026-11-10 01:26:32
+                    rollup.config-1794245192375.cjs
+                    
+[33m             Error: No such file or directory @ rb_file_s_stat - 
+C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/assets/js/dist/categories.min.js[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+      Regenerating: 16 file(s) changed at 2026-11-10 01:26:39
+                    _sass/vendors/_bootstrap.scss
+                    _sass/base/_base.scss
+                    _sass/pages/_about.scss
+                    assets/js/cursor-trail.js
+                    assets/js/landing.js
+                    assets/js/starry-sky.js
+                    assets/js/dist/app.min.js
+                    assets/js/dist/categories.min.js
+                    assets/js/dist/commons.min.js
+                    assets/js/dist/home.min.js
+                    assets/js/dist/misc.min.js
+                    assets/js/dist/page.min.js
+                    assets/js/dist/post.min.js
+                    assets/js/dist/sw.min.js
+                    assets/js/dist/theme.min.js
+                    rollup.config-1794245192375.cjs
+                    ...done in 6.2115056 seconds.
+                    
+      Regenerating: 9 file(s) changed at 2026-11-10 01:26:47
+                    assets/js/dist/commons.min.js
+                    assets/js/dist/app.min.js
+                    assets/js/dist/categories.min.js
+                    assets/js/dist/home.min.js
+                    assets/js/dist/misc.min.js
+                    assets/js/dist/page.min.js
+                    assets/js/dist/post.min.js
+                    assets/js/dist/sw.min.js
+                    assets/js/dist/theme.min.js
+                    ...done in 6.4845253 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 01:26:53
+                    assets/js/dist/home.min.js
+                    assets/js/dist/categories.min.js
+                    ...done in 7.3295391 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:27:01
+                    assets/js/dist/page.min.js
+                    ...done in 8.1947816 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:27:09
+                    assets/js/dist/post.min.js
+                    ...done in 7.6985801 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:28:03
+                    package-lock.json
+                    ...done in 5.9111396 seconds.
+                    
+      Regenerating: 17 file(s) changed at 2026-11-10 01:28:12
+                    .husky/_/husky.sh
+                    .husky/_/.gitignore
+                    .husky/_/h
+                    .husky/_/pre-commit
+                    .husky/_/pre-merge-commit
+                    .husky/_/prepare-commit-msg
+                    .husky/_/commit-msg
+                    .husky/_/post-commit
+                    .husky/_/applypatch-msg
+                    .husky/_/pre-applypatch
+                    .husky/_/post-applypatch
+                    .husky/_/pre-rebase
+                    .husky/_/post-rewrite
+                    .husky/_/post-checkout
+                    .husky/_/post-merge
+                    .husky/_/pre-push
+                    .husky/_/pre-auto-gc
+                    ...done in 7.4041278 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 01:28:23
+                    rollup.config-1794245303547.cjs
+                    _sass/vendors/_bootstrap.scss
+[33m             Error: No such file or directory @ rb_file_s_stat - 
+C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/rollup.config-1794245303547.cjs[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+                    
+      Regenerating: 8 file(s) changed at 2026-11-10 01:28:31
+                    assets/js/dist/commons.min.js
+                    assets/js/dist
+                    _sass/vendors/_bootstrap.scss
+                    assets/js/dist/categories.min.js
+                    assets/js/dist/home.min.js
+                    assets/js/dist/page.min.js
+                    assets/js/dist/post.min.js
+                    rollup.config-1794245303547.cjs
+                    ...done in 6.8169135 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 01:28:38
+                    assets/js/dist/home.min.js
+                    assets/js/dist/categories.min.js
+                    ...done in 6.6391718 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 01:28:45
+                    assets/js/dist/page.min.js
+                    assets/js/dist/post.min.js
+                    ...done in 7.0936239 seconds.
+                    
+      Regenerating: 4 file(s) changed at 2026-11-10 01:28:52
+                    assets/js/dist/misc.min.js
+                    assets/js/dist/theme.min.js
+                    assets/js/dist/app.min.js
+                    assets/js/dist/sw.min.js
+                    ...done in 7.2455257 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 01:30:18
+                    package.json
+                    package-lock.json
+                    ...done in 7.956586 seconds.
+                    
+      Regenerating: 11 file(s) changed at 2026-11-10 01:30:26
+                    assets/js/dist/commons.min.js
+                    assets/js/dist
+                    _sass/vendors/_bootstrap.scss
+                    assets/js/dist/app.min.js
+                    assets/js/dist/categories.min.js
+                    assets/js/dist/home.min.js
+                    assets/js/dist/misc.min.js
+                    assets/js/dist/page.min.js
+                    assets/js/dist/post.min.js
+                    assets/js/dist/sw.min.js
+                    assets/js/dist/theme.min.js
+                    ...done in 9.4322441 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 01:30:36
+                    assets/js/dist/home.min.js
+                    assets/js/dist/categories.min.js
+                    ...done in 17.8193223 seconds.
+                    
+      Regenerating: 4 file(s) changed at 2026-11-10 01:30:54
+                    assets/js/dist/page.min.js
+                    assets/js/dist/post.min.js
+                    assets/js/dist/misc.min.js
+                    assets/js/dist/theme.min.js
+                    ...done in 18.5052917 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 01:31:12
+                    assets/js/dist/app.min.js
+                    assets/js/dist/sw.min.js
+                    ...done in 15.7854989 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:33:12
+                    assets/css/log-blog.css
+                    ...done in 7.7602403 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:36:23
+                    assets/css/log-blog.css
+                    ...done in 11.4194615 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 01:36:44
+                    assets/css/log-blog.css
+                    assets/css/sedYbG6gQ
+                    ...done in 12.5057512 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 01:36:57
+                    assets/css/log-blog.css
+                    assets/css/sedYbG6gQ
+                    ...done in 7.6026422 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:37:05
+                    assets/css/log-blog.css
