@@ -15,6 +15,7 @@
   document.addEventListener('mousemove', function (e) {
     targetX = e.clientX;
     targetY = e.clientY;
+    kick();
     if (!active) {
       active = true;
       dot.classList.add('is-active');
@@ -26,12 +27,19 @@
     dot.classList.remove('is-active');
   });
 
+  var running = false;
   function loop() {
     x += (targetX - x) * 0.18;
     y += (targetY - y) * 0.18;
     dot.style.transform = 'translate3d(' + x + 'px,' + y + 'px,0)';
-    requestAnimationFrame(loop);
+    if (Math.abs(targetX - x) > 0.1 || Math.abs(targetY - y) > 0.1) {
+      requestAnimationFrame(loop);
+    } else {
+      running = false;
+    }
+  }
+  function kick() {
+    if (!running) { running = true; requestAnimationFrame(loop); }
   }
 
-  requestAnimationFrame(loop);
 })();

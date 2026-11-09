@@ -16,6 +16,8 @@ layout: compress
   {% include head.html lang=lang %}
 
   <body class="landing-page">
+    <div class="landing-progress" aria-hidden="true"><span></span></div>
+    <div class="landing-spotlight" aria-hidden="true"></div>
     <div id="galaxy-bg" aria-hidden="true">
       <div class="galaxy-nebula nebula-1"></div>
       <div class="galaxy-nebula nebula-2"></div>
@@ -98,40 +100,90 @@ layout: compress
         </div>
       </div>
 
+      <aside class="landing-term" aria-label="Terminal preview" data-tilt>
+        <div class="landing-term__bar">
+          <i></i><i></i><i></i>
+          <span>dreaith@notes:~</span>
+        </div>
+        <pre class="landing-term__body" data-term><code></code></pre>
+      </aside>
+
       <a href="#landing-tracks" class="landing-scroll-cue" aria-label="Scroll down">
         <i class="fas fa-chevron-down" aria-hidden="true"></i>
       </a>
     </main>
 
+    {% assign report_notes = site.logs | where: "category", "reports" %}
+    <section class="landing-stats" aria-label="Site at a glance">
+      <div class="landing-stat reveal-on-scroll">
+        <strong data-count="{{ site.posts | size }}">0</strong>
+        <span>Writeups</span>
+      </div>
+      <div class="landing-stat reveal-on-scroll">
+        <strong data-count="{{ site.logs | size }}">0</strong>
+        <span>Log notes</span>
+      </div>
+      <div class="landing-stat reveal-on-scroll">
+        <strong data-count="{{ report_notes | size }}">0</strong>
+        <span>Reports</span>
+      </div>
+    </section>
+
     <section id="landing-tracks" class="landing-tracks">
       <span class="landing-tracks__label">What's on this site</span>
 
       <div class="landing-tracks__grid">
-        <a href="{{ '/writeups/' | relative_url }}" class="landing-track reveal-on-scroll">
+        <a href="{{ '/writeups/' | relative_url }}" class="landing-track reveal-on-scroll" data-tilt>
+          <span class="landing-track__num">01</span>
           <i class="fas fa-flag fa-fw" aria-hidden="true"></i>
           <h3>Writeups</h3>
           <p>CTF writeups and walkthroughs.</p>
         </a>
 
-        <a href="{{ '/logs/' | relative_url }}" class="landing-track reveal-on-scroll">
+        <a href="{{ '/logs/' | relative_url }}" class="landing-track reveal-on-scroll" data-tilt>
+          <span class="landing-track__num">02</span>
           <i class="fas fa-shield-halved fa-fw" aria-hidden="true"></i>
           <h3>Defensive Security</h3>
           <p>Blue team notes, detection, and incident response.</p>
         </a>
 
-        <a href="{{ '/logs/' | relative_url }}" class="landing-track reveal-on-scroll">
+        <a href="{{ '/logs/' | relative_url }}" class="landing-track reveal-on-scroll" data-tilt>
+          <span class="landing-track__num">03</span>
           <i class="fas fa-globe fa-fw" aria-hidden="true"></i>
           <h3>Web Security</h3>
-          <p>Web fundamentals and offensive/defensive basics.</p>
+          <p>Web fundamentals, PortSwigger labs and offensive/defensive basics.</p>
         </a>
 
-        <a href="{{ '/about/' | relative_url }}" class="landing-track reveal-on-scroll">
+        <a href="{{ '/about/' | relative_url }}" class="landing-track reveal-on-scroll" data-tilt>
+          <span class="landing-track__num">04</span>
           <i class="fas fa-user-astronaut fa-fw" aria-hidden="true"></i>
           <h3>About</h3>
           <p>Who's behind the terminal.</p>
         </a>
       </div>
     </section>
+
+    <section class="landing-latest" aria-label="Latest writeups">
+      <span class="landing-tracks__label">Latest writeups</span>
+      <div class="landing-latest__list">
+        {% for post in site.posts limit: 3 %}
+          <a href="{{ post.url | relative_url }}" class="landing-post reveal-on-scroll">
+            <span class="landing-post__meta">{{ post.date | date: '%b %d, %Y' }}{% if post.categories.first %} &middot; {{ post.categories.first }}{% endif %}</span>
+            <h3>{{ post.title }}</h3>
+            <span class="landing-post__go">Read <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+
+    <div class="landing-marquee" aria-hidden="true">
+      <div class="landing-marquee__track">
+        {% assign tools = "Burp Suite|Wireshark|Autopsy|Linux|Git|Metasploit|Bash|Python|OverTheWire|PortSwigger|Hack The Box|TryHackMe" | split: "|" %}
+        {% for round in (1..2) %}
+          {% for t in tools %}<span>{{ t }}</span>{% endfor %}
+        {% endfor %}
+      </div>
+    </div>
 
     <footer class="landing-footer">
       <span>&copy; {{ 'now' | date: '%Y' }} {{ site.social.name }}.</span>

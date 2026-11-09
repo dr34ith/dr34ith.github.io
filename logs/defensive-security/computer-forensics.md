@@ -58,20 +58,19 @@ Suggested tool to use: Neo Hex Editor.
 5. Check attributes → verify the file's creation/modified dates to see if the attacker altered them.
 
 ```
-┌─────────────────────────────────┐ ┌─────────────────────────────────┐
-│ BINARY SYSTEM                   │ │ HEXADECIMAL SYSTEM              │
-├─────────────────────────────────┤ ├─────────────────────────────────┤
-│ Base: 2                         │ │ Base: 16                        │
-│ Digits: 0, 1                    │ │ Digits: 0-9, A-F                │
-│ Example: A = 01000001           │ │ Example: A = 41₁₆               │
-│ 8 bits = 1 byte                 │ │ 2 hex digits = 1 byte           │
-│ Readability: Hard for humans    │ │ Readability: Compact & easy     │
-│ Used in: Machine code, bitwise  │ │ Used in: Debugging, memory,     │
-│         operations              │ │         color codes, assembly  │
-└─────────────────────────────────┘ └─────────────────────────────────┘
+┌─────────────┬─────────────────┬────────────────────┐
+│             │ BINARY          │ HEXADECIMAL        │
+├─────────────┼─────────────────┼────────────────────┤
+│ Base        │ 2               │ 16                 │
+│ Digits      │ 0, 1            │ 0-9, A-F           │
+│ Example (A) │ 01000001        │ 41                 │
+│ Size        │ 8 bits = 1 byte │ 2 digits = 1 byte  │
+│ Readability │ Hard for humans │ Compact and easy   │
+│ Used in     │ Machine code    │ Debugging, memory, │
+│             │ and bitwise ops │ color codes        │
+└─────────────┴─────────────────┴────────────────────┘
 
-      01000001 (Binary)  ←→  41₁₆ (Hexadecimal)
-      (Both represent the letter 'A')
+   01000001 (binary)  <->  41 (hex)  =  the letter 'A'
 ```
 
 ### Physical Drives vs. Logical Drives

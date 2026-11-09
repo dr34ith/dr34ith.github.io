@@ -4,7 +4,266 @@
        Destination: C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_site
  Incremental build: disabled. Enable with --incremental
       Generating... 
-                    done in 23.913 seconds.
+bundle : [33m          Conflict: The following destination is shared by multiple files.[0m
+At line:1 char:302
++ ... xt' } catch {} } }; bundle exec jekyll serve --port 4000 2>&1 | Tee-O ...
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([33m          ...iple files.[0m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mC:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_site/logs/reports/
+downloadable-reports.md[0m[0m
+[33m                     - 
+C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/logs/reports/downloadable-reports.md[0m
+[33m                     - 
+C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main/_logs/reports/downloadable-reports.md[0m
+[33m                    [0m
+                    done in 22.393 seconds.
  Auto-regeneration: enabled for 'C:/Users/drew/Downloads/dr34ith.github.io-main/dr34ith.github.io-main'
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
+[2026-11-10 00:04:15] ERROR '/assets/reports/APPRENTICE_Web_Pentest_Report.pdf' not found.
+[2026-11-10 00:04:25] ERROR '/logs/reports/downloadable-reports/' not found.
+[2026-11-10 00:04:25] ERROR '/logs/reports/downloadable-reports/' not found.
+[2026-11-10 00:04:43] ERROR '/logs/reports/downloadable-reports/' not found.
+[2026-11-10 00:04:46] ERROR '/logs/reports/downloadable-reports/' not found.
+[2026-11-10 00:04:50] ERROR '/logs/reports/downloadable-reports/' not found.
+[2026-11-10 00:04:50] ERROR '/logs/reports/downloadable-reports/index.html' not found.
+      Regenerating: 1 file(s) changed at 2026-11-10 00:04:57
+                    _logs/reports/downloadable-reports.md
+[2026-11-10 00:05:07] ERROR '/logs/reports/downloadable-reports/' not found.
+                    ...done in 12.6343792 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:05:10
+                    _logs/reports/downloadable-reports.md
+                    ...done in 7.5373493 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:06:44
+                    logs/assets/reports/Portswigger_Labs_Documentation_by_Dreaith.pdf
+                    ...done in 9.6019982 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:06:54
+                    logs/reports/downloadable-reports.md
+                    _logs/reports/downloadable-reports.md
+                    ...done in 7.28749 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2026-11-10 00:08:26
+                    logs/reports/downloadable-reports.md
+                    _logs/reports/downloadable-reports.md
+                    logs/index.json
+                    ...done in 7.7717463 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:08:39
+                    logs/sedZIfj0J
+                    ...done in 7.2179044 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:08:46
+                    logs/logs.html
+                    logs/sedZIfj0J
+                    ...done in 6.4879832 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:10:20
+                    logs/assets/portswigger/cover.png
+                    _logs/reports/sedXnQnqR
+                    ...done in 7.9254393 seconds.
+                    
+      Regenerating: 4 file(s) changed at 2026-11-10 00:10:28
+                    _logs/reports/downloadable-reports.md
+                    logs/index.json
+                    logs/logs.html
+                    _logs/reports/sedXnQnqR
+                    ...done in 6.7318292 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:11:50
+                    _layouts/landing.html
+                    ...done in 6.0766663 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:12:50
+                    assets/css/landing.css
+                    ...done in 6.2051319 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:13:06
+                    assets/js/landing.js
+                    assets/css/landing.css
+                    ...done in 7.0564141 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:18:02
+                    assets/css/site-polish.css
+                    ...done in 8.5571394 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:18:11
+                    _layouts/default.html
+                    ...done in 9.3432802 seconds.
+                    
+      Regenerating: 3 file(s) changed at 2026-11-10 00:20:38
+                    _sass/base/_base.scss
+                    assets/js/cursor-trail.js
+                    assets/css/site-polish.css
+                    ...done in 7.0073643 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:23:12
+                    assets/js/starry-sky.js
+                    ...done in 6.099727 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:23:18
+                    assets/css/starry-sky.css
+                    ...done in 5.8527328 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:23:24
+                    _sass/base/_base.scss
+                    _layouts/default.html
+                    ...done in 6.9493733 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:24:10
+                    assets/js/starry-sky.js
+                    ...done in 9.1296424 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:25:55
+                    assets/css/landing.css
+                    ...done in 6.3038392 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:27:51
+                    assets/css/site-polish.css
+                    ...done in 11.2982559 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:28:02
+                    assets/js/starry-sky.js
+                    ...done in 13.4339925 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:28:56
+                    assets/css/site-polish.css
+                    ...done in 6.0147437 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:29:02
+                    assets/css/site-polish.css
+                    ...done in 6.1909779 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:30:56
+                    assets/js/starry-sky.js
+                    assets/css/starry-sky.css
+                    ...done in 6.7955224 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:31:03
+                    assets/css/writeup-enhance.css
+                    assets/css/site-polish.css
+                    ...done in 10.4088438 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:31:23
+                    assets/css/starry-sky.css
+                    ...done in 5.8584425 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:32:31
+                    assets/js/starry-sky.js
+                    ...done in 8.7629892 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:33:54
+                    assets/js/starry-sky.js
+                    ...done in 7.1059611 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:35:07
+                    assets/js/starry-sky.js
+                    ...done in 7.8853703 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:36:39
+                    assets/js/starry-sky.js
+                    ...done in 6.5979846 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:38:05
+                    assets/js/starry-sky.js
+                    ...done in 7.1079412 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:39:55
+                    assets/js/starry-sky.js
+                    ...done in 7.1703395 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:41:48
+                    assets/js/starry-sky.js
+                    ...done in 6.5526661 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:44:35
+                    assets/js/starry-sky.js
+                    assets/css/starry-sky.css
+                    ...done in 6.3667091 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:46:29
+                    assets/js/starry-sky.js
+                    ...done in 6.1379344 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:48:06
+                    assets/js/starry-sky.js
+                    ...done in 6.8557262 seconds.
+                    
+      Regenerating: 4 file(s) changed at 2026-11-10 00:50:04
+                    assets/js/starry-sky.js
+                    assets/css/site-polish.css
+                    _tabs/about.md
+                    _sass/pages/_about.scss
+                    ...done in 6.5042437 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:51:21
+                    _sass/pages/_about.scss
+                    assets/js/starry-sky.js
+                    ...done in 5.6136884 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:52:36
+                    assets/css/site-polish.css
+                    ...done in 6.092925 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:55:16
+                    assets/css/starry-sky.css
+                    assets/css/site-polish.css
+                    ...done in 6.050466 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:55:23
+                    assets/css/writeup-enhance.css
+                    ...done in 6.0279349 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:56:56
+                    _logs/defensive-security/computer-forensics.md
+                    logs/defensive-security/computer-forensics.md
+                    ...done in 6.5019245 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 00:57:23
+                    assets/css/log-detail.css
+                    ...done in 6.6320447 seconds.
+                    
+[2026-11-10 00:58:13] ERROR '/logs/computer-forensics/' not found.
+      Regenerating: 1 file(s) changed at 2026-11-10 00:59:21
+                    assets/css/starry-sky.css
+                    ...done in 6.1815394 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 00:59:27
+                    assets/js/starry-sky.js
+                    _includes/refactor-content.html
+                    ...done in 6.447546 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:00:36
+                    assets/css/log-detail.css
+                    ...done in 6.4248629 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:00:42
+                    assets/css/log-detail.css
+                    ...done in 6.1875889 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:01:31
+                    assets/css/writeup-enhance.css
+                    ...done in 6.5474265 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:03:56
+                    assets/css/log-blog.css
+                    ...done in 7.1722199 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-11-10 01:04:25
+                    _layouts/log.html
+                    assets/js/starry-sky.js
+                    ...done in 6.8495633 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:05:58
+                    assets/css/log-blog.css
+                    ...done in 8.9901669 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-11-10 01:08:42
+                    _tabs/about.md
+                    ...done in 8.2634563 seconds.
+                    

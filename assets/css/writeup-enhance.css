@@ -363,3 +363,144 @@ body.writeup-active .post-article blockquote {
     transition: none;
   }
 }
+
+/* Plain background on posts: no particle canvas */
+body.post-page .writeup-particles-canvas { display: none !important; }
+
+
+/* =====================================================
+   ONE PALETTE for writeup posts
+   base #131318 / surface #1a1a21 / accent gold. Overrides the old crimson + black.
+   ===================================================== */
+body.writeup-active {
+  --wp-base: #131318;
+  --wp-surface: #1a1a21;
+  --wp-line: rgba(255, 255, 255, 0.07);
+  --wp-gold: #fbbf24;
+  --wp-gold-soft: #fde68a;
+  --wp-text-dim: rgba(230, 230, 238, 0.68);
+}
+
+html:has(body.post-page.writeup-active),
+html body.post-page.writeup-active { background: var(--wp-base) !important; }
+
+body.writeup-active #main-wrapper,
+body.writeup-active #main-wrapper > .container,
+body.writeup-active #tail-wrapper { background: transparent !important; }
+
+body.writeup-active #topbar-wrapper {
+  background: var(--wp-base) !important;
+  box-shadow: 0 1px 0 var(--wp-line) !important;
+}
+
+/* Post card + side panels share ONE surface colour */
+body.writeup-active .post-article {
+  background: rgba(26, 26, 33, 0.96) !important;
+  border: 1px solid var(--wp-line);
+  border-radius: 0.9rem;
+  box-shadow: 0 1rem 2.2rem rgba(0, 0, 0, 0.25);
+}
+body.writeup-active #panel-wrapper > .access,
+body.writeup-active #panel-wrapper section,
+body.writeup-active .writeup-toc-panel {
+  background: var(--wp-surface) !important;
+  border: 1px solid var(--wp-line);
+  border-radius: 0.8rem;
+}
+body.writeup-active .writeup-toc-panel { padding: 0.8rem 0.4rem 1rem; }
+
+/* Sidebar: same family, no more crimson */
+body.writeup-active #sidebar {
+  background: var(--wp-surface) !important;
+  border-right: 1px solid var(--wp-line);
+}
+body.writeup-active #sidebar .profile-wrapper #avatar {
+  box-shadow: 0 0 18px rgba(251, 191, 36, 0.28), 0 0 42px rgba(251, 191, 36, 0.12);
+}
+body.writeup-active #sidebar .profile-wrapper .site-title { color: var(--wp-gold-soft) !important; }
+body.writeup-active #sidebar .profile-wrapper .site-subtitle { color: var(--wp-text-dim) !important; }
+body.writeup-active #sidebar .nav-item.active > .nav-link {
+  color: var(--wp-gold) !important;
+  text-shadow: 0 0 12px rgba(251, 191, 36, 0.35);
+  background: rgba(251, 191, 36, 0.08);
+  border-left: 3px solid var(--wp-gold);
+}
+body.writeup-active #sidebar .nav-item.active > .nav-link i {
+  color: var(--wp-gold) !important;
+  filter: drop-shadow(0 0 6px rgba(251, 191, 36, 0.4));
+}
+body.writeup-active #sidebar .nav-item:not(.active) > .nav-link { color: var(--wp-text-dim) !important; }
+body.writeup-active #sidebar .nav-item:not(.active) > .nav-link i { color: rgba(230, 230, 238, 0.5) !important; }
+body.writeup-active #sidebar .nav-item:not(.active) > .nav-link:hover {
+  color: #fff !important;
+  background: rgba(251, 191, 36, 0.06);
+}
+body.writeup-active #sidebar .sidebar-bottom a { color: var(--wp-text-dim) !important; }
+body.writeup-active #sidebar .sidebar-bottom a:hover { color: var(--wp-gold-soft) !important; }
+
+/* Accents crimson -> gold */
+body.writeup-active #reading-progress {
+  background: linear-gradient(90deg, #f59e0b, #fbbf24, #fde68a);
+  box-shadow: 0 0 8px rgba(251, 191, 36, 0.4);
+}
+.writeup-toc-panel { scrollbar-color: rgba(251, 191, 36, 0.3) transparent; }
+.writeup-toc-panel::-webkit-scrollbar-thumb { background: rgba(251, 191, 36, 0.3); }
+.writeup-toc-heading,
+.writeup-mobile-toc-drawer .wtoc-drawer-title { color: rgba(251, 191, 36, 0.85); }
+.writeup-toc-nav .wtoc-link:hover { color: #fff; background: rgba(251, 191, 36, 0.07); }
+.writeup-toc-nav .wtoc-link.active {
+  color: #fbbf24;
+  border-left-color: #fbbf24;
+  background: rgba(251, 191, 36, 0.09);
+}
+.writeup-mobile-toc-toggle {
+  border-color: rgba(251, 191, 36, 0.4);
+  background: rgba(26, 26, 33, 0.95);
+  color: #fbbf24;
+}
+.writeup-mobile-toc-drawer { background: rgba(26, 26, 33, 0.98); border-top-color: rgba(251, 191, 36, 0.25); }
+.writeup-mobile-toc-drawer .wtoc-drawer-header { border-bottom-color: rgba(251, 191, 36, 0.15); }
+body.writeup-active .post-article h2 {
+  border-image: linear-gradient(90deg, rgba(251, 191, 36, 0.55) 0%, rgba(251, 191, 36, 0.15) 60%, transparent 100%) 1;
+}
+body.writeup-active .post-article h3 { border-left-color: rgba(251, 191, 36, 0.5); }
+body.writeup-active .post-article a:not(.btn):not(.anchor):not(.popup) { color: #f5c451; }
+body.writeup-active .post-article a:not(.btn):not(.anchor):not(.popup):hover { color: #fde68a; }
+body.writeup-active .post-article .highlight { border-color: rgba(251, 191, 36, 0.12); }
+body.writeup-active .post-code-dropdown { border-color: rgba(251, 191, 36, 0.28); background: rgba(19, 19, 24, 0.6); }
+body.writeup-active .post-code-dropdown summary:hover { color: #fde68a; background: rgba(251, 191, 36, 0.08); }
+body.writeup-active .post-code-dropdown[open] summary { border-bottom-color: rgba(251, 191, 36, 0.2); }
+body.writeup-active .post-article blockquote { border-left-color: rgba(251, 191, 36, 0.5); }
+body.writeup-active ::selection { background: rgba(251, 191, 36, 0.3); color: #fff; }
+
+/* Soft gold lights drifting behind the page (gradients only, no blur filter, transform-only animation) */
+body.writeup-active::before {
+  content: '';
+  display: block !important;
+  position: fixed;
+  inset: -15%;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(520px circle at 24% 20%, rgba(251, 191, 36, 0.14), transparent 70%),
+    radial-gradient(470px circle at 80% 48%, rgba(245, 158, 11, 0.11), transparent 70%),
+    radial-gradient(560px circle at 30% 86%, rgba(253, 230, 138, 0.09), transparent 70%);
+  animation: wp-gold-drift 50s ease-in-out infinite alternate;
+  will-change: transform;
+}
+@keyframes wp-gold-drift {
+  from { transform: translate3d(-2%, -1.5%, 0); }
+  to { transform: translate3d(3%, 2.5%, 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.writeup-active::before { animation: none; }
+}
+
+/* Leftover pink headings -> gold so the post uses one palette */
+body.writeup-active .post-article h2,
+body.writeup-active .post-article h2 a { color: #fde68a !important; }
+body.writeup-active .post-article h3,
+body.writeup-active .post-article h3 a { color: #f6d98c !important; }
+body.writeup-active .post-article h4 { color: #f0dba5 !important; }
+body.writeup-active #panel-wrapper .panel-heading,
+body.writeup-active #panel-wrapper h2 { color: #fde68a !important; }

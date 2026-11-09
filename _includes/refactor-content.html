@@ -22,7 +22,7 @@
   https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
 -->
 
-{% if _content contains '<pre class="highlight">' %}
+{% if _content contains '<pre class="highlight">' and page.collection != 'logs' %}
   {% assign _content = _content
     | replace: '<div class="highlight"><pre class="highlight"><code', '<div class="highlight"><code'
     | replace: '</code></pre></div>', '</code></div>'
